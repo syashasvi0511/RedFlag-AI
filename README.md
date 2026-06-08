@@ -1,5 +1,7 @@
 🚩 RedFlag AI (Python)
+
 📌 What This Project Does
+
 This project is an AI-powered Anaemia Detection System built using Python. I created it with AI assistance to detect anaemia from blood smear microscopy images by analysing the shape, size, and colour of red blood cells (RBCs) under a microscope. 
 
 Datasets were provided by the AneRBC-II benchmark and downloaded from kaggle.com:
