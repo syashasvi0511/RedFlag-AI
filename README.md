@@ -5,9 +5,13 @@
 This project is an AI-powered Anaemia Detection System built using Python. I created it with AI assistance to detect anaemia from blood smear microscopy images by analysing the shape, size, and colour of red blood cells (RBCs) under a microscope. 
 
 Datasets were provided by the AneRBC-II benchmark and downloaded from kaggle.com:
+
      Anemic individuals : RGB-segmented RBC microscopy images
+     
      Healthy individuals : RGB-segmented RBC microscopy images
+     
      Split used : 70% Train / 15% Validation / 15% Test
+     
 
 We used 1 deep learning algorithm with a 2 stage fine tuning approach:
      MobileNetV2: 
