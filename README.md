@@ -49,8 +49,8 @@ API : FastAPI (not called since streamlit loaded the model itself using @st.cach
 
 🚀 How to Run
 
-1. Download the dataset from kaggle. Link- https://www.kaggle.com/datasets/jocelyndumlao/anerbc-anemia-diagnosis-using-rbc-images
-2. Setup kaggle credentials in google colab.
+1. Setup kaggle credentials in google colab.
+2. Download the dataset from kaggle in google collab and through this link - Link- https://www.kaggle.com/datasets/jocelyndumlao/anerbc-anemia-diagnosis-using-rbc-images.
 3. Run code 1 (It scans the folders for images and splits images into train, val, test. Then completes data augmentation (applied random jitters, rotations, flips to artificially increase variety). It then loads in MobileNetV2 and completes the stage 1 and stage 2 training with 10 epochs each. It calculates the accuracy, sensitivity, specificity. It finallys saves the model weights in .pt format (PyTorch)).
 4. Run code 2 (Inference + Grad-cam) (Grad-cam is a helper code and not for training, it generates Heatmap to identify the cells which helped predict the result)
 5. Rude code 3 (%%writefile app.py - Wrote the Streamlit UI code to disk as a file. Didn't run the app yet.)
