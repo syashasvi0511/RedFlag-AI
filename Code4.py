@@ -1,4 +1,5 @@
 !pip install pyngrok -q
+!pip install streamlit
 from pyngrok import ngrok
 import subprocess, time
 
